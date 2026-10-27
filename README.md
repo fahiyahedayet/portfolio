@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Fahiya Binthey Hedayet — Portfolio
 
-## Getting Started
+<p align="center">
+  <strong>Aspiring Full-Stack Developer | UI/UX Enthusiast</strong>
+</p>
 
-First, run the development server:
+<p align="center">
+  Building meaningful digital experiences through clean code, thoughtful design, and continuous learning.
+</p>
+
+<p align="center">
+  <a href="https://github.com/fahiyahedayet">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/fahiya-hedayet-b1542a2b2/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:fahiyahedayet@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+---
+
+## 🌷 About This Portfolio
+
+Welcome to my personal portfolio! This website showcases my development journey, selected projects, technical skills, and passion for creating user-friendly web experiences.
+
+As an aspiring full-stack developer, I enjoy learning modern web technologies, solving programming challenges, and turning ideas into functional, visually appealing applications.
+
+## 🚀 Features
+
+- **Personal Introduction:** Learn about me, my journey, and my interests.
+- **Project Showcase:** Explore selected projects with descriptions, technologies, and project details.
+- **Project Image Gallery:** Browse project screenshots with an image slider.
+- **Technical Skills:** Discover the technologies and tools I work with.
+- **Responsive Design:** Optimized layouts for desktop, tablet, and mobile devices.
+- **Contact Information:** Find ways to connect with me.
+
+## 🛠️ Technologies
+
+- **Frontend:** HTML, CSS, JavaScript, React.js
+- **Frameworks:** Next.js
+- **Languages:** JavaScript, TypeScript
+- **Styling:** Tailwind CSS
+- **Tools:** Git, GitHub, VS Code
+- **Design:** UI/UX Design
+
+*Technologies listed here reflect my learning toolkit; update this list to match the tools actually used in the portfolio project.*
+
+## 📂 Featured Projects
+
+Explore my GitHub repositories to see my work and progress:
+
+| Project | Description | Repository |
+|---|---|---|
+| Bazar Dor | A market-price browsing application with category navigation and authentication. | [View Project](https://github.com/fahiyahedayet/assignment-7) |
+| FitLog | A fitness application for exploring workouts and managing a personal plan. | [View Project](https://github.com/fahiyahedayet/assignment-6) |
+| Portfolio | My personal website showcasing my skills and projects. | [View Repository](https://github.com/fahiyahedayet/portfolio) |
+
+## 💻 Getting Started
+
+To run the portfolio locally:
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/fahiyahedayet/portfolio.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd portfolio
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Open the website**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 My Goals
 
-## Learn More
+- Strengthen my frontend and full-stack development skills.
+- Build accessible, responsive, and user-friendly applications.
+- Improve my problem-solving and programming skills.
+- Combine development and UI/UX principles to create better digital experiences.
+- Continue learning and building projects that solve real-world problems.
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Let's Connect
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm always happy to connect with fellow developers, designers, and people who enjoy building creative things with technology.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **GitHub:** [@fahiyahedayet](https://github.com/fahiyahedayet)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/fahiya-hedayet-b1542a2b2/)
+- **Email:** [fahiyahedayet@gmail.com](mailto:fahiyahedayet@gmail.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  <i>"Turning ideas into meaningful digital experiences, one line of code at a time."</i>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  Made with 💜 by Fahiya Binthey Hedayet
+</p>
