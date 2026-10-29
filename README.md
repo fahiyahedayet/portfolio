@@ -48,48 +48,6 @@ As an aspiring full-stack developer, I enjoy learning modern web technologies, s
 
 *Technologies listed here reflect my learning toolkit; update this list to match the tools actually used in the portfolio project.*
 
-## 📂 Featured Projects
-
-Explore my GitHub repositories to see my work and progress:
-
-| Project | Description | Repository |
-|---|---|---|
-| Bazar Dor | A market-price browsing application with category navigation and authentication. | [View Project](https://github.com/fahiyahedayet/assignment-7) |
-| FitLog | A fitness application for exploring workouts and managing a personal plan. | [View Project](https://github.com/fahiyahedayet/assignment-6) |
-| Portfolio | My personal website showcasing my skills and projects. | [View Repository](https://github.com/fahiyahedayet/portfolio) |
-
-## 💻 Getting Started
-
-To run the portfolio locally:
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/fahiyahedayet/portfolio.git
-```
-
-**2. Navigate to the project directory**
-
-```bash
-cd portfolio
-```
-
-**3. Install dependencies**
-
-```bash
-npm install
-```
-
-**4. Start the development server**
-
-```bash
-npm run dev
-```
-
-**5. Open the website**
-
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
 ## 🎯 My Goals
 
 - Strengthen my frontend and full-stack development skills.
@@ -110,8 +68,4 @@ I'm always happy to connect with fellow developers, designers, and people who en
 
 <p align="center">
   <i>"Turning ideas into meaningful digital experiences, one line of code at a time."</i>
-</p>
-
-<p align="center">
-  Made with 💜 by Fahiya Binthey Hedayet
 </p>
