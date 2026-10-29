@@ -619,10 +619,10 @@ export default function PortfolioHome() {
               </p>
 
               <a
-                className="contact-email"
-                href="mailto:fahiyahedayet@gmail.com"
+                className="button button-primary"
+                href="mailto:fahiyahedayet@gmail.com" 
               >
-                fahiyahedayet@gmail.com ↗
+                Let's talk ↗
               </a>
 
               <div className="social-row">
@@ -699,6 +699,8 @@ export default function PortfolioHome() {
           </div>
         </section>
 
+        
+
         {/* Footer */}
         <footer className="footer">
           <Link className="brand" href="#home">
@@ -710,7 +712,7 @@ export default function PortfolioHome() {
 
           <span>Designed with intention. Built with curiosity.</span>
           <a href="#home">Back to top ↑</a>
-          <span>© {new Date().getFullYear()}</span>
+        
         </footer>
       </div>
     </main>

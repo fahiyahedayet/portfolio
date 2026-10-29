@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import ProjectGallery from "../../../components/project-gallery";
 import { projects } from "../../../lib/projects";
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function ProjectDetailsPage({ params }: Props) {
+async function ProjectDetailsContent({ params }: Props) {
   const { slug } = await params;
   const project = projects.find((item) => item.slug === slug);
 
@@ -144,7 +145,7 @@ export default async function ProjectDetailsPage({ params }: Props) {
 
           <article className="detail-card">
             <p className="eyebrow">BUILT WITH</p>
-            <h2>Tools & skills</h2>
+            <h2>Tools &amp; skills</h2>
             <p className="detail-description">
               Technologies and skills used in this project.
             </p>
@@ -168,7 +169,8 @@ export default async function ProjectDetailsPage({ params }: Props) {
           <div>
             <p className="eyebrow">KEEP EXPLORING</p>
             <h2>
-              More things I’ve built<span className="gradient-text">.</span>
+              More things I’ve built
+              <span className="gradient-text">.</span>
             </h2>
             <p>Take a look at my other projects and experiments.</p>
           </div>
@@ -189,10 +191,24 @@ export default async function ProjectDetailsPage({ params }: Props) {
           <span>Designed with intention. Built with curiosity.</span>
 
           <Link href="/#home">Back to top ↑</Link>
-
-          <span>© {new Date().getFullYear()}</span>
         </footer>
       </div>
     </main>
+  );
+}
+
+export default function ProjectDetailsPage({ params }: Props) {
+  return (
+    <Suspense
+      fallback={
+        <main className="project-page">
+          <div className="detail-shell">
+            <p className="detail-description">Loading project...</p>
+          </div>
+        </main>
+      }
+    >
+      <ProjectDetailsContent params={params} />
+    </Suspense>
   );
 }
